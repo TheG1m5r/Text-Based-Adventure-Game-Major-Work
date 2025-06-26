@@ -10,10 +10,14 @@ list = ['atttack', 'defend', 'run']
 
 
 frame = tk.Frame(root)
-for i in range(len(list)):
-    grid = frame.grid(row=i, column=0)
-    label = tk.Label(grid, bg="Blue", text=f"{list[i]}")
-    label.grid()
+# frame.grid can be anywhere between here and before the label = tk.Label
+frame.grid()
+for i in range(3):
+    frame.rowconfigure(i)
+    for j in range(2):
+        frame.columnconfigure(j)
+        label = tk.Label(master=frame, bg="Blue", text=f"{list[i]}")
+        label.grid(row=i, column=j)
 
 
 
