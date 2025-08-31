@@ -1,0 +1,30 @@
+--Installation--
+will require pip install pygame + PILLOW
+
+- try in terminal
+pip install pygame pillow
+
+--Controls--
+w = north/up
+a = west/left
+s = south/down
+d = east/right
+m = open/close map
+
+left click on buttons to use
+
+--Goal--
+none so far meant to be turned based but didn't have time due to tkinter's complexity to seeming trivial tasks.
+
+--Important Notes--
+- game is not saved, closing the window will reset all progress
+- game is not meant to be completed, just a demo of a text based adventure game with some rpg elements
+- some areas are not fully implemented and will not spawn enemies
+- items are not implemented nor the equipment system
+
+--Contact--
+# school email here
+GitHub: @TheG1m5r
+--Credits--
+Riley Skellern + ChatGPT for help with tkinter and some python logic
+special mention to copilot for helping with some repetitive code and suggesting of functions
